@@ -1,0 +1,25 @@
+<?xml encoding="UTF-8"?>
+
+        <!ELEMENT configuration (compilation,execution)>
+        <!ATTLIST configuration
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT compilation (argument*)>
+        <!ATTLIST compilation
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT execution (argument*,mainClass,path)>
+        <!ATTLIST execution
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT mainClass (#PCDATA)>
+        <!ATTLIST mainClass
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT path (#PCDATA)>
+        <!ATTLIST path
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT argument (#PCDATA)>
+        <!ATTLIST argument
+                xmlns CDATA #FIXED ''>

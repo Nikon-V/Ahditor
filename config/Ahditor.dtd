@@ -1,0 +1,17 @@
+<?xml encoding="UTF-8"?>
+
+        <!ELEMENT configuration (image?,fading,theme)>
+        <!ATTLIST configuration
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT image (#PCDATA)>
+        <!ATTLIST image
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT fading (#PCDATA)>
+        <!ATTLIST fading
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT theme (#PCDATA)>
+        <!ATTLIST theme
+                xmlns CDATA #FIXED ''>

@@ -1,0 +1,30 @@
+Thank you for using Ahditor
+
+Intallation Instructions:
+
+run 'mvn package' in this directory.
+
+
+When running the program for the first time, (using the script or with java -jar <.jar> args)
+it will automatically generate the appropriate configuration files in ~/.config/Ahditor/
+
+IDE Config Path:
+~/.config/Ahditor/Ahditor.xml
+(example configuration in config/Ahditor.xml)
+
+Project Config Path:
+ProjectRoot/Ahditor_config.xml
+(example config included in this project)
+
+Git interactions:
+You will need a ssh key inside your ~/.ssh/ directory properly configured
+and generated with `ssh-keygen -m PEM -t rsa`. Otherwise it will fail to recognize the key.
+
+
+
+Usage:
+
+./Ahditor <project-path>
+
+you can symling the sh script inside the /bin directory to add it to your path.
+You can modify the script to account for your needs

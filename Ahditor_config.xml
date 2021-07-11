@@ -1,0 +1,9 @@
+<configuration>
+    <compilation>
+    </compilation>
+    <execution>
+        <argument>/home/celivalg/Dev/Projects/nicolas.van-hamme-ping-2023</argument>
+        <mainClass>com.epita.assistants.ping.Main</mainClass>
+        <path>/home/celivalg/Dev/Projects/nicolas.van-hamme-ping-2023</path>
+    </execution>
+</configuration>
